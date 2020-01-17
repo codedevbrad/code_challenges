@@ -14,9 +14,9 @@ my first attempt:
                  // includes - O(n)
               = O( n * n ) || O(n^2).
 ```
-to do:
-## apply a quicksearch algorithm to reduce complexity of getFreeSlots.
-## test against meetings that start at odd times. not just 00 or 30.
+### to do:
+ - apply a quicksearch algorithm to reduce complexity of getFreeSlots.
+ - test against meetings that start at odd times. not just 00 or 30.
 
 
 ...

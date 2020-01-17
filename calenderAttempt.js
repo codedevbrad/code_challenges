@@ -3,10 +3,6 @@ let calender1 = [ [ '10:00' , '10:30'] , ['11:00' , '11:30'] , [ '13:00' , '13:3
     
  let dailyBounds1 = [ '08:00' , '18:00' ] , 
      dailyBounds2 = [ '09:00' , '19:00' ];
-     
-  // in future
-     // make sure we test against meetings that start at odd times. not just 00 or 30 intervals.
-     // we need to test within the range of 30 minutes from the start,
 
 const availableDays = ( a , bounds ) => {
     

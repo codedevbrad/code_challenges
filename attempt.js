@@ -26,10 +26,10 @@ const availableDays = ( a , bounds ) => {
          let hour  = ("0" + potential[i] ).slice(-2) + ':00';
          let half  = ("0" + potential[i] ).slice(-2) + ':30';
          if ( !a.includes( hour ) ) {
-     			    possibleBookings.push(hour);
+     	    possibleBookings.push(hour);
          } 
          if ( !a.includes( half ) && i < potential.length - 1 ) {
-              possibleBookings.push(half);
+            possibleBookings.push(half);
          }
     }
     return possibleBookings;

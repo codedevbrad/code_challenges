@@ -16,8 +16,8 @@ my first attempt:
 ```
 ### to do:
  - apply a divide & conquer quicksearch algorithm to reduce complexity of getFreeSlots to O( n log n ).
-          choose middle item of b
-               reduce array of b depending on n item of a.
+          - choose middle item of b
+              - reduce array of b depending on n item of a.
  - test against meetings that start at odd times. not just 00 or 30.
 
 

@@ -15,7 +15,7 @@ my first attempt:
               = O( n * n ) || O(n^2).
 ```
 ### to do:
- - apply a divide & conquer quicksearch algorithm to reduce complexity of getFreeSlots to O( n log n ).
+ - apply a divide & conquer algorithm to reduce the complexity of getFreeSlots to O( n log n ).
  
           - choose middle item of b
               - reduce array of b depending on n item of a.

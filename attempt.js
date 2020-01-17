@@ -13,13 +13,13 @@ const availableDays = ( a , bounds ) => {
     const timeSlots = [ 06 , 07 , 08 , 09 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 ];
  
     let availableBetween = parseInt( bounds[0] ) - parseInt( bounds[1] );
-    let possibleBookings = [  ];
+    let possibleBookings = [ ];
     
     a = [].concat.apply([], a );
     
     const potential = timeSlots.filter(( 
-    				each => each >= parseInt(bounds[0]) && 
-                    each <= parseInt(bounds[1]) ));
+    		each => each >= parseInt(bounds[0]) && 
+                each <= parseInt(bounds[1]) ));
 
     for ( let i = 0; i < potential.length; i++ ) {
 					

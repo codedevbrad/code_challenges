@@ -15,10 +15,11 @@ my first attempt:
               = O( n * n ) || O(n^2).
 ```
 ### to do:
- - apply a divide & conquer algorithm to reduce the complexity of getFreeSlots to O( n log n ).
+ - apply a divide & conquer algorithm to reduce the complexity of getFreeSlots().
  
-          - choose middle item of b
-              - reduce array of b depending on n item of a.
+          - array b is sorted so maybe a binary search?
+          - or, just remove items found from n of iterated a. so , with each pass of a, b gets smaller.
+              
  - test against meetings that start at odd times. not just 00 or 30.
 
 
